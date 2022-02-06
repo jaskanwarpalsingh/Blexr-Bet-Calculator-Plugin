@@ -1,0 +1,193 @@
+/* calculator.scss */
+/* line 3, ../assets/sass/modules/_calculator.scss */
+.calculator-container {
+  background: white;
+  padding: 20px;
+  font-size: 14px;
+  max-width: 650px;
+  box-shadow: 0px 0px 5px #ababab;
+}
+/* line 10, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields {
+  padding: 30px 0;
+}
+/* line 13, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .odd_format {
+  text-align: right;
+  padding: 0 20px 0;
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 30px;
+}
+/* line 19, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .odd_format select {
+  padding: 8px 10px;
+}
+/* line 25, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields label {
+  font-size: 14px;
+  width: auto;
+}
+/* line 30, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields select,
+.calculator-container .calculator-fields input {
+  margin-left: 10px;
+  border: 1px solid #cdcdcd;
+  width: 20%;
+  border-radius: 30px;
+  line-height: normal;
+  padding: 8px 10px;
+}
+/* line 40, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .fields {
+  display: flex;
+}
+/* line 43, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .fields .w-50 {
+  width: 50%;
+  text-align: center;
+}
+/* line 47, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .fields .w-50 label {
+  float: left;
+  width: 100%;
+}
+/* line 52, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .fields .w-50 input {
+  width: 80%;
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 58, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .fields .w-50 a.remove-input {
+  margin-right: -21px;
+  background: black;
+  color: white;
+  display: inline-block;
+  line-height: normal;
+  border: 0;
+  text-align: center;
+  max-width: unset;
+  text-transform: none;
+  border-radius: 10px;
+  width: 20px;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+/* line 74, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .fields .w-50 button {
+  margin-top: 10px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid #cdcdcd;
+  margin-left: 10px;
+}
+/* line 83, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .fields .w-50 button#add-odds {
+  background: black;
+  color: white;
+}
+/* line 90, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .payouts-container {
+  display: flex;
+  padding: 30px 0 0;
+  border-top: 1px solid #cdcdcd;
+  margin-top: 30px;
+}
+/* line 96, ../assets/sass/modules/_calculator.scss */
+.calculator-container .calculator-fields .payouts-container div#payout-output {
+  background: black;
+  color: white;
+  line-height: normal;
+  padding: 10px 20px;
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+/* data-table.scss */
+/* line 3, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table {
+  width: 80%;
+  max-width: 100% !important;
+  background: white;
+}
+/* line 8, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .filter-container {
+  width: 100%;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background: #f8f8f8;
+}
+/* line 15, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .filter-container label, div.wp-block-blexr-sports-odd-data-table .filter-container select, div.wp-block-blexr-sports-odd-data-table .filter-container button {
+  font-size: 14px;
+  margin-left: 10px;
+  width: auto;
+}
+/* line 21, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .filter-container select {
+  border: 1px solid #cdcdcd;
+  width: 20%;
+  border-radius: 30px;
+  line-height: normal;
+  padding: 8px 10px;
+}
+/* line 29, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .filter-container button {
+  background: black;
+  color: white;
+  padding: 6px 30px;
+  border-radius: 30px;
+}
+/* line 37, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  font-size: 12px;
+  border-bottom: 1px solid #cdcdcd;
+}
+/* line 44, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .left-container {
+  width: 10%;
+  text-align: center;
+}
+/* line 48, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .left-container h6 {
+  font-size: 12px;
+}
+/* line 53, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .right-container {
+  width: 90%;
+  padding-left: 10px;
+}
+/* line 57, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .right-container .scrollable-container {
+  overflow-x: auto;
+  display: flex;
+  text-align: center;
+}
+/* line 62, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .right-container .scrollable-container .bet-detais {
+  padding: 10px;
+}
+/* line 65, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .right-container .scrollable-container .bet-detais h6 {
+  font-size: 12px;
+}
+/* line 69, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .right-container .scrollable-container .bet-detais .bets {
+  display: flex;
+  text-align: center;
+}
+/* line 74, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .right-container .scrollable-container .bet-detais .bets .single-bet span {
+  width: 100%;
+  display: inline-block;
+}
+/* line 81, ../assets/sass/modules/_data-table.scss */
+div.wp-block-blexr-sports-odd-data-table .sports-container .right-container .scrollable-container .bet-detais:nth-child(2n+1) {
+  background: #efefef;
+}

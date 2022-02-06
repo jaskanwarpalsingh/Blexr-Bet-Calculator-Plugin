@@ -1,0 +1,88 @@
+/* data-table.scss */
+
+div.wp-block-blexr-sports-odd-data-table {
+    width: 80%;
+    max-width: 100% !important;
+    background: white;
+
+    .filter-container {
+        width: 100%;
+        display: inline-block;
+        padding: 20px;
+        text-align: center;
+        background: #f8f8f8;
+        
+        label, select, button {
+            font-size: 14px;
+            margin-left: 10px;
+            width: auto;
+        }
+
+        select {
+            border: 1px solid #cdcdcd;
+            width: 20%;
+            border-radius: 30px;
+            line-height: normal;
+            padding: 8px 10px;
+        }
+
+        button {
+            background: black;
+            color: white;
+            padding: 6px 30px;
+            border-radius: 30px;
+        }
+    }
+
+    .sports-container {
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        font-size: 12px;
+        border-bottom: 1px solid #cdcdcd;
+
+        .left-container {
+            width: 10%;
+            text-align: center;
+
+            h6 {
+                font-size: 12px;
+            }
+        }
+
+        .right-container {
+            width: 90%;
+            padding-left: 10px;
+
+            .scrollable-container {
+                overflow-x: auto;
+                display: flex;
+                text-align: center;
+
+                .bet-detais {
+                    padding: 10px;
+
+                    h6 {
+                        font-size: 12px;
+                    }
+
+                    .bets {
+                        display: flex;
+                        text-align: center;
+
+                        .single-bet {
+                            span {
+                                width: 100%;
+                                display: inline-block;
+                            }
+                        }
+                    }
+
+                    &:nth-child(2n+1) {
+                        background: #efefef;
+                    }
+                }
+            }
+        }
+    }
+}
